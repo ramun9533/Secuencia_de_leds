@@ -21,7 +21,7 @@ void loop(){
 
 for (int contador = 2; contador < 17; contador++){
   digitalWrite (Filas [contador], LOW); 
-  
+  digitalWrite (Columnas [contador], LOW);
   
 }
 digitalWrite (17, HIGH);
