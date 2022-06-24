@@ -13,17 +13,16 @@ void setup()
  
   for (int contador = 2; contador < 4; contador++){
     pinMode(Filas[contador], OUTPUT); }
+    digitalWrite (2, HIGH);
 }
  
-void loop()
+void loop(){
 
-{for (int contador1 = 2; contador1 < 4;contador1++){
-  digitalWrite (Filas, HIGH);
-  for (int contador2 = 4; contador2 < 17; contador2++){
+//for (int contador1 = 2; contador1 < 4;contador1++){
+ // digitalWrite (Filas, HIGH);
+for (int contador2 = 4; contador2 < 17; contador2++){
    digitalWrite (Columnas, HIGH);
    delay (300);
   digitalWrite (Columnas, LOW);}
-  digitalWrite (Filas, LOW);}
+  }
   
-
-}
